@@ -1,0 +1,95 @@
+
+
+//once dropped, fit
+.item {
+    width: 100%;
+    height: 100%;
+}
+
+}
+
+#c1 {
+    border-color: black;
+    top:0*0.75cm; left:0*0.75cm;
+}
+
+rect {
+    fill: #CCC;
+    cursor: pointer;
+}
+.active {
+    fill: orange;
+    stroke: orange;
+}
+
+.activelink {
+    fill: none;
+    stroke: orange;
+    stroke-width: 2.5px;
+}
+
+.label {
+    fill: white;
+    font-family: sans-serif;
+    pointer-events: none;
+}
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2.5px;
+}
+div#tree{
+    width: 995px;
+    height: 400px;
+    overflow-y: scroll;
+}
+svg:not(:root) {
+    overflow: scroll;
+}
+#mydiv{
+    height: 300px;
+    width: 600px;
+}
+
+.bar { fill: steelblue; }
+
+.dot { fill: steelblue; }
+
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #D4D8DA;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+.x path {
+    display: none;
+}
+.toolTip {
+    position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #6F257F;
+  padding: 14px;
+  text-align: center;
+}
+
+.ui-contextmenu{
+    position: absolute;
+    z-index: 999999;
+}
+
+.toolTip{
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 5px;
+  background-color: white;
+  opacity: 70%;
+  white-space: nowrap;
+  display: none;
+  z-index: 1000;  
+}
